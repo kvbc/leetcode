@@ -15,10 +15,8 @@ char* countAndSay (int n) {
         int writetop = 0;
         int len = buflen;
         for (int j = 0; j < len;) {
-            while (rbuf[j] == c) {
-                count++;
-                j++;
-            }
+            while (rbuf[j] == c)
+                count++, j++;
             char oldc = c;
             c = rbuf[j];
             wbuf[writetop++] = count + '0';
