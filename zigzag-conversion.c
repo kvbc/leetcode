@@ -18,7 +18,7 @@ char* convert(char *s, int numRows) {
     int r = 1; // row
     for (int i = 0; ri < slen;) {
         rs[ri++] = s[i];
-        if (y == numRows) i +=  numRows * 2 - 2; // integrate it into the expression below?
+        if (y == numRows) i +=  numRows * 2 - 2; // integrate into the expression below?
         else              i += (numRows * 2) - (y * 2);
         if (i >= slen) {
             i = ++si;
