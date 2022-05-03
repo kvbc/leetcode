@@ -1,6 +1,7 @@
 // leetcode.com/problems/count-and-say
 // 1 <= n <= 30
 
+// O(n)
 // assuming the return value is later freed
 char* countAndSay (int n) {
     // buflen for n=30 is 4462
