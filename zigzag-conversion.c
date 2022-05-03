@@ -1,5 +1,7 @@
 // leetcode.com/problems/zigzag-conversion
 
+// n = strlen(s)
+// O(n)
 char* convert(char *s, int numRows) {
     int slen = strlen(s);
     char *rs = malloc((slen + 1) * sizeof(char)); // result string
