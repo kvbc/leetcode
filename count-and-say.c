@@ -1,4 +1,5 @@
 // leetcode.com/problems/count-and-say
+// 1 <= n <= 30
 
 char* countAndSay (int n) {
     // buflen for n=30 is 4462
