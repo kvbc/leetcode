@@ -1,6 +1,4 @@
 // leetcode.com/problems/zigzag-conversion
-#include <string.h>
-#include <stdlib.h>
 
 char* convert(char *s, int numRows) {
     int slen = strlen(s);
