@@ -31,8 +31,7 @@ char* countAndSay (int n) {
         rbuf = buf;
     }
     
-    printf("%d = %d\n", n, buflen);
-    
+    free(wbuf);
     rbuf[buflen] = '\0';
     return rbuf;
 }
